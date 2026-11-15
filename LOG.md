@@ -33,3 +33,10 @@ Stripe is set to redirect to `/thanks-r8m3/` on the live domain. That path is no
 
 ### Hosting
 Public repo `evanmack45/sharethislife-preview`, `main` branch, GitHub Pages from `/`. No custom domain and no `CNAME`. Preview URL: `https://evanmack45.github.io/sharethislife-preview/`.
+
+### Hosting results (2026-11-15, 9:22 AM CT)
+- Public repo: https://github.com/evanmack45/sharethislife-preview (`main`). No other repo was touched. No `CNAME`. `cname` is null. `https_enforced` is true.
+- Pages built from `main` `/`. Status: `built`.
+- `https://evanmack45.github.io/sharethislife-preview/` returned **HTTP 200** (plain curl, no redirect). Also 200 with `--resolve evanmack45.github.io:443:185.199.108.153`.
+- `/thanks-r8m3/`, `privacy.html`, `questions.html`, `cards.html`, `robots.txt`, `css/site.css`, `js/config.js`, and `js/app.js` all returned 200. Live `config.js` has the $19 Stripe link. `robots.txt` is `Disallow: /`.
+- Official screenshots were retaken from the live github.io URLs (same files as above).
