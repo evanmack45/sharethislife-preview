@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Share This Life — A story chapter in their own words.</title>
+  <meta name="description" content="Record a 10–20 minute conversation with a parent or grandparent. Within 48 hours, get back a finished story chapter in their own words. $19.">
+  <meta name="theme-color" content="#F3EBE0">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Share This Life">
+  <meta property="og:title" content="Share This Life — A story chapter in their own words.">
+  <meta property="og:description" content="Record a 10–20 minute conversation with a parent or grandparent. Within 48 hours, get back a finished story chapter in their own words. $19.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Share This Life — A story chapter in their own words.">
+  <meta name="twitter:description" content="Record a 10–20 minute conversation with a parent or grandparent. Within 48 hours, get back a finished story chapter in their own words. $19.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.ico" sizes="32x32">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+  <p class="preview-banner">This is a preview. The live site is unchanged.</p>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="index.html">Share This Life</a>
+    <nav class="site-nav" aria-label="Site">
+      <a href="index.html#order" aria-current="page">Order a chapter</a>
+      <a href="questions.html">Twenty questions</a>
+      <a href="cards.html">Table cards</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <div class="hero-offer">
+      <section class="hero">
+        <hr class="ornament">
+        <h1>Record them at Thanksgiving. Get a chapter back in 48 hours.</h1>
+        <p class="lede">Sit down with a parent or a grandparent for ten or twenty minutes — or use a recording you already have — and send it to us. Within 48 hours, you get back a finished story chapter in that person’s own words: a PDF and an editable text file, with one free revision.</p>
+        <p>They don’t need an app, an account, or any homework. One conversation is enough.</p>
+        <p>Last day to order for Christmas is December 18.</p>
+      </section>
+
+      <section class="offer-card" id="order" aria-labelledby="offer-title">
+        <h2 id="offer-title">A story chapter, $19</h2>
+        <ul class="offer-list">
+          <li>A finished chapter, written in their first person, from the recording you send</li>
+          <li>A PDF and an editable text file</li>
+          <li>One free revision</li>
+          <li>Back to you within 48 hours</li>
+        </ul>
+        <p>Every quote in the chapter comes from the recording. We don’t invent words. If we’re unsure of a name or a date, we send those back to you as questions.</p>
+        <p class="fine">A sample chapter is coming. We want you to be able to read one before you pay.</p>
+
+        <div class="consent-box">
+          <label class="consent-label" for="consent">
+            <input type="checkbox" id="consent" name="consent">
+            <span>The person speaking knows they’re being recorded and agreed to it being turned into a chapter</span>
+          </label>
+        </div>
+
+        <!-- Pay href comes from STRIPE_PAYMENT_LINK in js/config.js (one-line swap). -->
+        <p><a class="btn btn-primary" data-pay-link id="pay-link" href="#order" aria-disabled="true" tabindex="-1">Order a story chapter — $19</a></p>
+        <p class="placeholder-note" data-pay-placeholder-note id="pay-placeholder-note" hidden>Payment link coming. This button is a placeholder until a test Stripe link is connected.</p>
+        <p class="fine">We delete the audio and the transcript 30 days after we send the chapter. We don’t clone anyone’s voice, reuse the recording, or share it. Full refund on request. <a href="privacy.html">Privacy, consent, and refunds</a>.</p>
+        <noscript>
+          <p class="placeholder-note">Turn on JavaScript to use the order button, or write to sharethislife@agentmail.to.</p>
+        </noscript>
+      </section>
+    </div>
+
+    <section class="section-block" id="how" aria-labelledby="how-title">
+      <h2 id="how-title">How it works</h2>
+      <ol class="steps">
+        <li>
+          <h3>Record a conversation</h3>
+          <p>Ten to twenty minutes with a parent or grandparent, or a recording you already have. Ask them first. After you order, you’ll get a one-page card with phone tips and ten good questions.</p>
+        </li>
+        <li>
+          <h3>Pay $19 and send the audio</h3>
+          <p>You’ll be sent to a thank-you page with the address. Email the file to sharethislife@agentmail.to from the email you used at checkout, and include the speaker’s first name and relationship. If the file is large, send a Google Drive, Dropbox, or iCloud share link instead.</p>
+        </li>
+        <li>
+          <h3>We write the chapter from their words</h3>
+          <p>We don’t invent quotes. Names and dates we can’t confirm come back to you as questions.</p>
+        </li>
+        <li>
+          <h3>You get it back within 48 hours</h3>
+          <p>A PDF and an editable text file, in the same email thread, with one free revision if you want a change.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section-block" aria-labelledby="free-title">
+      <h2 id="free-title">Or start with twenty free questions</h2>
+      <p>If you’d rather ask them yourself first, here are twenty questions and a set of printable table cards. They live on this site. Nothing you type is sent to us.</p>
+      <p class="btn-row">
+        <a class="btn btn-quiet" href="questions.html">Read the twenty questions</a>
+        <a class="btn btn-quiet" href="cards.html">Print table cards</a>
+      </p>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>We delete the audio and the transcript 30 days after we send the chapter. We don’t clone anyone’s voice, reuse a recording, or share it. Full refund on request. <a href="privacy.html">Privacy, consent, and refunds</a>.</p>
+      <p><a href="https://www.afternic.com/domain/sharethislife.com">This domain is for sale</a></p>
+    </div>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
